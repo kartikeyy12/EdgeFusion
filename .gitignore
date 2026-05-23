@@ -1,0 +1,20 @@
+# Build directories
+build/
+build_x86/
+build_arm64/
+build-arm64/
+
+# Compiled binaries
+telemetry_pipeline
+
+# YOLO weights (too large for GitHub)
+models/yolov4-tiny.weights
+
+# Demo frames
+demo/
+
+# Misc
+*.o
+*.a
+*.so
+.vscode/
